@@ -13,7 +13,7 @@ body {
   align-items: center;
 }
 .container {
-  height: 48rem;
+  height: 45rem;
   width: 75rem;
   background-color: #de8a89;
   margin-top: 5rem;
@@ -21,9 +21,9 @@ body {
 .header {
   margin-top: 6rem;
   font-size: 50px;
-  font-weight: bolder;
-  word-spacing: 4rem;
-  margin-left: 16rem;
+  font-weight: 900;
+  word-spacing: 2rem;
+  text-align: end;
 }
 .deep {
   color: white;
@@ -35,13 +35,101 @@ body {
 .light:hover {
   color: #eec5c6;
 }
-.light-line {
-  color: #e9afb0;
-  cursor: pointer;
-  margin-left: 68rem;
-  font-size: 50px;
-  font-weight: bolder;
+
+.text {
+  padding-left: 13rem;
+  color: #fbfdff;
+  font-weight: 600;
+  font-size: 1.4rem;
+  width: 60rem;
+  margin-bottom: 2rem;
 }
-.light-line:hover {
-  color: #eec5c6;
+.box {
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-top: 2rem;
+  margin-left: 10rem;
+  background-color: #ecb9b8;
+  cursor: pointer;
+}
+.right-triangle {
+  height: 1rem;
+  width: 1rem;
+  border-top: 0.5rem solid transparent;
+  border-right: 0.5rem solid grey;
+  border-bottom: 0.5rem solid transparent;
+  border-left: 0.5rem solid transparent;
+}
+.climate {
+  display: flex;
+  justify-content: center;
+}
+.weather {
+  width: 45rem;
+  height: 15rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #3e3c3d;
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+}
+.timer,
+.temp,
+.load {
+  padding-top: 5rem;
+  position: relative;
+}
+h3 {
+  color: #ce8780;
+}
+.sub-text {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.temp {
+  background-color: #353334;
+}
+.load {
+  background-color: #201e1f;
+}
+.start {
+  height: 3rem;
+  width: 12rem;
+  background-color: black;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.boxx {
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-top: 2rem;
+  margin-left: 50rem;
+  background-color: #ecb9b8;
+  cursor: pointer;
+}
+
+.left-triangle {
+  height: 1rem;
+  width: 1rem;
+  margin-left: 1rem;
+  border-top: 0.5rem solid transparent;
+  border-right: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid transparent;
+  border-left: 0.5rem solid gray;
 }
